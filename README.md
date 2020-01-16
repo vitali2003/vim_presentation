@@ -1,4 +1,4 @@
-## `2019.10.17`
+## `2019.12.17`
 Some basics (essential) commands
 Color Schemes ------------------------ F7, F8
 Syntax highlighting
@@ -171,7 +171,6 @@ Explore my vimrc
 
 ### Color Schemes
 ---
-- Eclipse
 - Git
 - Docker
 - Vagrant
@@ -186,6 +185,7 @@ Explore my vimrc
 
 
 ### Work with text
+
     Hello *world!             ysiW*       [Hello] *world!*
     Hello w*orld!             ysiw)       Hello (world)!
     Hello world!              yss"       "Hello world!"
