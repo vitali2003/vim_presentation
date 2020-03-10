@@ -1,5 +1,4 @@
 " Macroses {{{1
-"2020.03.10
 let @a='IALTER USER wywA IDENTIFIED BY pa;j'
 "correct wrong inserted word.
 nnoremap Q 0yt=A<C-r>=<C-r>"<CR><Esc>"
