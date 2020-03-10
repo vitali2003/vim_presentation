@@ -1,9 +1,0 @@
-http://localhost:8080/job/sample/api
-GET /
-
-http://localhost:8080/job/sample/api/xml
-GET /
-
-http://localhost:8080/job/sample/api/json
-GET /
-
