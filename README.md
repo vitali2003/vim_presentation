@@ -1,4 +1,4 @@
-## `2020.04.01`
+## `2020.04.07`
 Some basics (essential) commands
 Color Schemes ------------------------ F7, F8
 Syntax highlighting
