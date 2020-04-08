@@ -1,36 +1,36 @@
 ## `2020.04.08_02`
 
-Some basics (essential) commands
-Color Schemes ------------------------ F7, F8
-Syntax highlighting
-Split/Resize screens
-Set focus
-Scale windows ------------------------ ,m
-Work with files:
-- switch between files
-- sort lines
-- find (replace) something
-- multiple-cursors
-- spelling --------------------------- F9
-- Completion (word,line,file,path...)
-- undo infinity ---------------------- U (P - play)
-- marks ------------------------------ m, m.
-- numbers and dates
-- math operations
-- increase/decrease number
-- relative numbers
-- Emmet & Rainbow
--- visual modes : Normal, Lines and Block
--- Command mode
-Registers ---------------------------- \y
-Sessions
-Work with :
-- Eclipse (eclim)
-- Git (Fugitivy, Gist, GitGutter)
-- Docker
-- Vagrant
-- Markdown --------------------------- <Bslash>m
-- Translate ,t
+- Some basics (essential) commands
+- Color Schemes ------------------------ F7, F8
+- Syntax highlighting
+- Split/Resize screens
+- Set focus
+- Scale windows ------------------------ ,m
+- Work with files:
+    - switch between files
+    - sort lines
+    - find (replace) something
+    - multiple-cursors
+    - spelling --------------------------- F9
+    - Completion (word,line,file,path...)
+    - undo infinity ---------------------- U (P - play)
+    - marks ------------------------------ m, m.
+    - numbers and dates
+    - math operations
+    - increase/decrease number
+    - relative numbers
+    - Emmet & Rainbow
+- visual modes : Normal, Lines and Block
+- Command mode
+- Registers ---------------------------- \y
+- Sessions
+- Work with :
+    - Eclipse (eclim)
+    - Git (Fugitivy, Gist, GitGutter)
+    - Docker
+    - Vagrant
+    - Markdown --------------------------- <Bslash>m
+    - Translate ,t
 Howdoi ------------------------------- C+h
 Explore my vimrc
 
