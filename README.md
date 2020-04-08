@@ -2,7 +2,7 @@
 
 Some basics (essential) commands
 Color Schemes ------------------------ F7, F8
-Syntax very highlighting
+Syntax highlighting
 Split/Resize screens
 Set focus
 Scale windows ------------------------ ,m
