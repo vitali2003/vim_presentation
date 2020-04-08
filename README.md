@@ -1,6 +1,5 @@
 ## `2020.04.07`
 Some basics (essential) commands
-Some basics (essential) commands
 Color Schemes ------------------------ F7, F8
 Syntax very highlighting
 Split/Resize screens
