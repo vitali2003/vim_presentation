@@ -1,7 +1,8 @@
 ## `2020.04.07`
 Some basics (essential) commands
+Some basics (essential) commands
 Color Schemes ------------------------ F7, F8
-Syntax highlighting
+Syntax very highlighting
 Split/Resize screens
 Set focus
 Scale windows ------------------------ ,m
