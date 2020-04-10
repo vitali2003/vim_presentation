@@ -4,46 +4,7 @@ let @a='IALTER USER wywA IDENTIFIED BY pa;j'
 nnoremap Q 0yt=A<C-r>=<C-r>"<CR><Esc>"
 inoremap <F10> <esc>u@.
 
-" Plugins {{{1
-" -- Eclim {{{2
-"http://eclim.org/cheatsheet.html#java-commands
-":Jps (Java Process Status Tool)
-"ProjectCreate /Users/vitali_bazhko/Documents/workspace/java -n java(groovy)
-": java(groovy)
-":JavaNew class(interface,abstract,enum,@interface)
-set cot-=preview
-let g:EclimProjectStatusLine = 'eclim(p=${name}, n=${natures})'
-let g:EclimLogLevel = 'error'
-nnoremap <leader>j :Java<CR><cr>
-vnoremap ,jcon  :JavaConstructor<CR>
-vnoremap ,jgs   :JavaGetSet<CR>
-vnoremap ,jg    :JavaGet<CR>
-vnoremap ,js    :JavaSet<CR>
-nnoremap ,jim   :JavaImpl<CR>
 
-nnoremap ,ji    :JavaImportOrganize<CR>
-nnoremap ,jnc   :JavaNew class
-nnoremap ,jr    :JavaRename
-nnoremap ,jc    :JavaCorrect<cr>
-nnoremap ,jf    :%JavaFormat<cr>
-nnoremap ,jd    :JavaDocSearch -x declarations<cr>
-nnoremap ,jdc   :JavaDocComment<cr>
-"nnoremap <silent> <buffer> <cr> :JavaSearchContext<cr>
-iab psvm public static void main(String[] args){<cr><cr>};<esc>kk
-iab sout System.out.println("");<esc>hhh
-"JavaHierarchy ---------- View the type hierarchy tree.
-"JavaDelegate ----------- View list of methods that delegate to the field under the cursor.
-"JavaImport ------------- Import the class under the cursor.
-"JavaMove [new_package] - Move the current class/interface to another package.
-"Validate --------------- Manually runs source code validation.
-"java -jar eclim_2.6.0.jar uninstaller
-
-" -- MySQL {{{2
-Plugin 'ivalkeen/vim-simpledb'  "https://github.com/ivalkeen/vim-simpledb
-let g:simpledb_show_timing = 0
-vnoremap <leader><cr> :SimpleDBExecuteSql<cr>
-nnoremap <leader><cr> V:SimpleDBExecuteSql<cr>
-nnoremap <leader><leader><cr> m':'{,'}SimpleDBExecuteSql<cr>g`'
 
 " -- Vim-fugitive {{{2
 Plugin 'tpope/vim-fugitive' "https://github.com/tpope/vim-fugitive
@@ -72,13 +33,11 @@ map \2 :diffget LO<CR> :diffupdate<CR>
 map \3 :diffget BA<CR> :diffupdate<CR>
 map \4 :diffget RE<CR> :diffupdate<CR>
 
-" -- Vim-gitgutter  (Shows Diff) {{{2
-Plugin 'airblade/vim-gitgutter' "https://github.com/airblade/vim-gitgutter
-"jump to next ]c
-"jump to previous [c
 
-" -- Vim-signature  (Show marks) {{{2
-Plugin 'kshenoy/vim-signature' "https://github.com/kshenoy/vim-signature
+
+
+
+
 
 " -- Extra instant markdown  {{{2
 "https://github.com/NBUT-Developers/extra-instant-markdown
@@ -131,12 +90,7 @@ Plugin 'laurentgoudet/vim-howdoi.git' "https://github.com/laurentgoudet/vim-howd
 "C-h
 set runtimepath^=~/.vim/bundle/vim-howdoi
 
-" -- Emmet {{{2
-Plugin 'mattn/emmet-vim' "https://github.com/mattn/emmet-vim
-imap <C-e> <C-y>,
-au FileType html,css EmmetInstall
-let g:user_emmet_install_global = 0
-let g:user_emmet_mode='a'
+
 
 " -- Gundo {{{2
 Plugin 'sjl/gundo.vim'  "https://github.com/sjl/gundo.vim
@@ -145,10 +99,6 @@ let g:gundo_playback_delay=120
 let g:gundo_preview_bottom = 1
 let g:gundo_help = 0
 set undofile history=200 undolevels=5000 undoreload=10000
-
-" -- Speeddating {{{2
-"https://github.com/tpope/vim-speeddating
-Plugin 'tpope/vim-speeddating'
 
 " -- Ack  {{{2
 "https://github.com/mileszs/ack.vim
@@ -180,13 +130,6 @@ xnoremap t :Tabularize /=<cr>
 Plugin 'vim-scripts/ReplaceWithRegister' "https://github.com/vim-scripts/ReplaceWithRegister
 nmap <leader>gr griw
 
-" -- Javacomplete2 {{{2
-"https://github.com/artur-shaik/vim-javacomplete2
-Plugin 'artur-shaik/vim-javacomplete2'
-au FileType java setlocal omnifunc=javacomplete#Complete
-
-call vundle#end()
-filetype plugin indent on
 
 " Synatax highliting {{{1
 " -- Tmux syntax {{{2
@@ -207,20 +150,9 @@ augroup ft_markdown
     au Filetype markdown nnoremap <buffer> <localleader>1 mzI###<space><esc>`zllll
 augroup END
 
-" -- Vagrant {{{2
-augroup ft_vagrant
-    au!
-    au BufRead,BufNewFile Vagrantfile set ft=ruby
-augroup END
-
 " -- YAML {{{2
 augroup ft_yaml
     au!
     au FileType yaml set shiftwidth=2
 augroup END
 
-" -- Other {{{2
-nnoremap _g :set ft=groovy<cr>
-nnoremap _j :set ft=java<cr>
-nnoremap _md :set ft=markdown<cr>
-nnoremap _v :set ft=vim<cr>
