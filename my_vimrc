@@ -5,40 +5,6 @@ nnoremap Q 0yt=A<C-r>=<C-r>"<CR><Esc>"
 inoremap <F10> <esc>u@.
 
 
-
-" -- Vim-fugitive {{{2
-Plugin 'tpope/vim-fugitive' "https://github.com/tpope/vim-fugitive
-Plugin 'junegunn/gv.vim'    "https://github.com/junegunn/gv.vim
-au User fugitive
-  \ if fugitive#buffer().type() =~# '^\%(tree\|blob\)$' |
-  \  noremap <buffer> .. :edit %:h<cr> |
-  \ endif
-au BufReadPost fugitive://* set bufhidden=delete
-nnoremap ,ga  :Git add %:p<CR><CR>
-nnoremap ,gb  :Gbrowse<cr>
-nnoremap ,gbr :Git branch<Space>
-nnoremap ,gc  :Git checkout<space>
-nnoremap ,gd  :Gdiff<cr>
-nnoremap ,gl  :GV!<CR>
-nnoremap ,gm  :Gmove<Space>
-nnoremap ,gp  :Git pull<cr>
-nnoremap ,gP  :Git push<cr><cr>
-nnoremap ,gr  :Gread<CR>
-nnoremap ,gs  :Gstatus<CR>
-nnoremap ,gw  :Gwrite<CR>
-
-nnoremap <leader>d  :windo diffthis<cr>
-nnoremap <leader>do  :diffoff<cr>
-map \2 :diffget LO<CR> :diffupdate<CR>
-map \3 :diffget BA<CR> :diffupdate<CR>
-map \4 :diffget RE<CR> :diffupdate<CR>
-
-
-
-
-
-
-
 " -- Extra instant markdown  {{{2
 "https://github.com/NBUT-Developers/extra-instant-markdown
 "sudo npm -g install instant-markdown-x
@@ -47,41 +13,6 @@ nnoremap \m :InstantMarkdownPreview<CR>
 let g:instant_markdown_autostart = 0
 nnoremap \m :InstantMarkdownPreview<CR>
 
-" -- Markdown {{{2
-"https://github.com/plasticboy/vim-markdown/
-Plugin 'plasticboy/vim-markdown'
-
-" -- Vim-easy-align {{{2
-"https://github.com/junegunn/vim-easy-align
-"https://robots.thoughtbot.com/align-github-flavored-markdown-tables-in-vim
-Plugin 'junegunn/vim-easy-align'
-au FileType markdown vmap <Leader><Bslash> :EasyAlign*<Bar><Enter>
-
-" -- Vimux {{{2
-Plugin 'benmills/vimux' "https://github.com/benmills/vimux
-let g:VimuxHeight = 35
-nnoremap <leader>g    :!clear && groovy %<CR>
-map <Leader>p         :VimuxPromptCommand<CR><C-r><C-w><cr>
-map <Leader>pc        :VimuxPromptCommand<CR>
-"map <Leader>g         :VimuxRunCommand("clear;groovy " . expand("%:p"))<CR>
-map <leader>c         :VimuxRunCommand("clear;")<CR>
-map <Leader>vr        :VimuxRunCommandInDir("git push",0)<CR>
-map <leader>q         :VimuxCloseRunner<cr>
-function! VimuxSlime()
-  call VimuxSendText(@v)
-  call VimuxSendKeys("Enter")
- endfunction
-nmap <leader>v "vyy :call VimuxSlime()<CR>
-
-" -- REST Console {{{2
-"https://github.com/diepm/vim-rest-console
-Plugin 'diepm/vim-rest-console'
-
-" -- Open-browser  {{{2
-Plugin 'tyru/open-browser.vim' "https://github.com/tyru/open-browser.vim
-vmap ,o <Plug>(openbrowser-smart-search)
-nmap ,o <Plug>(openbrowser-smart-search)
-nmap ,fg :OpenBrowserSmartSearch -github tpope<cr>
 
 " -- Howdoi  {{{2
 Plugin 'laurentgoudet/vim-howdoi.git' "https://github.com/laurentgoudet/vim-howdoi
@@ -90,15 +21,6 @@ Plugin 'laurentgoudet/vim-howdoi.git' "https://github.com/laurentgoudet/vim-howd
 "C-h
 set runtimepath^=~/.vim/bundle/vim-howdoi
 
-
-
-" -- Gundo {{{2
-Plugin 'sjl/gundo.vim'  "https://github.com/sjl/gundo.vim
-nnoremap U :GundoToggle<CR>
-let g:gundo_playback_delay=120
-let g:gundo_preview_bottom = 1
-let g:gundo_help = 0
-set undofile history=200 undolevels=5000 undoreload=10000
 
 " -- Ack  {{{2
 "https://github.com/mileszs/ack.vim
@@ -121,28 +43,6 @@ if executable("ag")
   let g:ctrlp_user_command = 'ag %s -i --nocolor --nogroup --ignore ''.git'' --ignore ''.DS_Store'' --ignore ''node_modules'' --hidden -g ""'
 endif
 
-" -- Tabular {{{2
-"https://github.com/godlygeek/tabular/blob/master/doc/Tabular.txt
-Plugin 'godlygeek/tabular'
-xnoremap t :Tabularize /=<cr>
-
-" -- ReplaceWithRegister {{{2
-Plugin 'vim-scripts/ReplaceWithRegister' "https://github.com/vim-scripts/ReplaceWithRegister
-nmap <leader>gr griw
-
-
-" Synatax highliting {{{1
-" -- Tmux syntax {{{2
-"https://github.com/keith/tmux.vim
-Plugin 'keith/tmux.vim'
-
-" -- Vim {{{2
-augroup ft_vim
-    au!
-    au FileType vim setlocal foldmethod=marker keywordprg=:help
-    au FileType help wincmd L
-augroup END
-
 " -- Markdown {{{2
 augroup ft_markdown
     au!
@@ -150,9 +50,4 @@ augroup ft_markdown
     au Filetype markdown nnoremap <buffer> <localleader>1 mzI###<space><esc>`zllll
 augroup END
 
-" -- YAML {{{2
-augroup ft_yaml
-    au!
-    au FileType yaml set shiftwidth=2
-augroup END
 

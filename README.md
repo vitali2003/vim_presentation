@@ -66,7 +66,7 @@ Explore my vimrc
     p - paste after cursor
     d - delete
     :10t. and :t10
-    YankRing \y
+    YankRing \y            https://github.com/vim-scripts/YankRing.vim
 
 ### Modes
     ### Visual : Normal, Lines and Block
@@ -92,13 +92,11 @@ Explore my vimrc
         Read Drew Neil
 
 ### Search
+  Forward / Backward
+    *          #  Word under cursor
+    /          ?
+    n          N  Next result
 
-    /  - Forward
-    *  - Word under cursor - forward
-    n  - Next result, forward
-        ?  - Backward
-        #  - Word under cursor - backward
-        N  - Next result, backward
 
 ### Completion
     C-x + C-p - complete word
@@ -133,15 +131,6 @@ Explore my vimrc
     58/8*169=
     1+112233/2+2.3=
 
-### Fun with dates
-    Mon, 30 Oct 2017 01:19:58 +0000
-    November 30th, 2016
-    2016-10-11
-    30/Nov/16
-    6:30 PM
-    XXI
-    21st
-
 ### Spelling
     <F9>  examples/spelling_en.md
           examples/spelling_ru.md
@@ -152,17 +141,6 @@ Explore my vimrc
     z= - view spelling suggestions for a mispelled word
 
 ### Netrw
-    :e .  - file explorer
-    :Sex(plore)
-    gh --- toggle visibility of dot files
-    i  --- cycle explorer display modes (thin,long,wide and tree)
-    -  --- cd ..
-    %  --- create file
-    d  --- create directory
-    o  --- opens the file in a horizontal split
-    v  --- opens the file in a vertical split
-    R  --- rename file/directory
-    D  --- delete file/directory
 
 ### Marks
 
@@ -171,19 +149,10 @@ Explore my vimrc
 ### Syntax highlighting
 
 ### Color Schemes
----
-- Git
-- Docker
-- Vagrant
-- Markdown --------------------------- <Bslash>m
-- Howdoi ------------------------------- C+h examples/howdoi.md
 
 ### Emmet
-    html:5
-    #page>div.logo+ul#navigation>li*5>a{Item $}
 
 ###   Explore my .vimrc
-
 
 ### Work with text
 
@@ -203,3 +172,5 @@ Explore my vimrc
 
 
 
++ - system clipboard
+* - text highlited
