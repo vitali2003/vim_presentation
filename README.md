@@ -1,4 +1,4 @@
-## `2020.04.08_02`
+## `2020.05.02`
 
 - Some basics (essential) commands
 - Color Schemes ------------------------ F7, F8
