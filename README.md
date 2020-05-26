@@ -32,7 +32,6 @@
     - Markdown --------------------------- <Bslash>m
     - Translate ,t
 Howdoi ------------------------------- C+h
-Explore my vimrc
 
 
 ### Let Vim become helper in your daily routine
