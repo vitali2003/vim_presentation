@@ -1,9 +1,10 @@
- `2020.06.13`
+ `2020.07.06`
 
 - Some basics (essential) commands
 - Color Schemes ------------------------ F7, F8
 - Syntax highlighting
 - Split/Resize screens
+
 - Set focus
 - Scale windows ------------------------ ,m
 - Work with files:
