@@ -1,4 +1,4 @@
- `2020.07.06`
+ `2020.07.17`
 
 - Some basics (essential) commands
 - Color Schemes ------------------------ F7, F8
