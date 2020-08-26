@@ -1,8 +1,9 @@
- `2020.08.06`
+ `2020.08.24`
 
-- Some basics (essential) commands
+- Some!!! basics (essential) commands
+- Some! basics (essential) commands
+- Some! basics (essential) commands
 - Color Schemes ------------------------ F7, F8
-- Syntax highlighting
 - Split/Resize screens
 - Set focus
 - Scale windows ------------------------ ,m
