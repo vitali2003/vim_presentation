@@ -1,7 +1,5 @@
- `2020.08.24`
+ `2022.09.02`
 
-- Some!!! basics (essential) commands
-- Some! basics (essential) commands
 - Some! basics (essential) commands
 - Color Schemes ------------------------ F7, F8
 - Split/Resize screens
