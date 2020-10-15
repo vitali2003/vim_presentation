@@ -1,6 +1,6 @@
- `2022.10.12_02`
+ `2022.10.15`
 
-- Some! basics (essential) commands
+- Some basics (essential) commands
 - Color Schemes ------------------------ F7, F8
 - Split/Resize screens
 - Set focus
@@ -18,16 +18,14 @@
     - math operations
     - increase/decrease number
     - relative numbers
-    - Emmet & Rainbow
+    - Emmet
 - visual modes : Normal, Lines and Block
 - Command mode
 - Registers ---------------------------- \y
 - Sessions
 - Work with :
-    - Eclipse (eclim)
     - Git (Fugitivy, Gist, GitGutter)
     - Docker
-    - Vagrant
     - Markdown --------------------------- <Bslash>m
     - Translate ,t
 Howdoi ------------------------------- C+h
