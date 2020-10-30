@@ -1,4 +1,4 @@
- `2022.10.30`
+ `2022.10.17`
 
 - Some basics (essential) commands
 - Color Schemes ------------------------ F7, F8
