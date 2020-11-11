@@ -1,4 +1,4 @@
- `2022.11.10`
+ `2022.11.10` from remote
 
 - Some basics (essential) commands
 - Color Schemes ------------------------ F7, F8
