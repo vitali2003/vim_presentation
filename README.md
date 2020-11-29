@@ -1,6 +1,5 @@
  `2022.11.30`
 
-added on Gihub
 - Some basics (essential) commands
 - Color Schemes ------------------------ F7, F8
 - Split/Resize screens
