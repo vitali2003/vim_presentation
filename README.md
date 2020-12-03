@@ -1,3 +1,4 @@
+
  `2022.12.02`
 
 - Some basics (essential) commands
@@ -9,13 +10,12 @@
     - switch between files
     - sort lines
     - find (replace) something
-    - multiple-cursors
+    - multiple-cursors also
     - spelling --------------------------- F9
     - Completion (word,line,file,path...)
     - undo infinity ---------------------- U (P - play)
     - marks ------------------------------ m, m.
     - numbers and dates
-    - math operations
     - increase/decrease number
     - relative numbers
     - Emmet
