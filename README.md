@@ -1,5 +1,5 @@
 
- `2022.12.02`
+ `2022.12.09`
 
 - Some basics (essential) commands
 - Color Schemes ------------------------ F7, F8
