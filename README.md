@@ -4,13 +4,13 @@
 - Some basics (essential) commands
 - Color Schemes ------------------------ F7, F8
 - Split/Resize screens
+- Split/Resize screens
 - Set focus
 - Scale windows ------------------------ ,m
 - Work with files:
     - switch between files
-    - sort lines
+    - sort lines again
     - find (replace) something
-    - multiple-cursors also
     - spelling --------------------------- F9
     - Completion (word,line,file,path...)
     - undo infinity ---------------------- U (P - play)
@@ -65,33 +65,35 @@ Howdoi ------------------------------- C+h
     YankRing \y            https://github.com/vim-scripts/YankRing.vim
 
 ### Modes
-    ### Visual : Normal, Lines and Block
-        <C-v>jje c
-        li.one   a{ background-image: url('/new/sprite.png'); }
-        li.two   a{ background-image: url('/new/sprite.png'); }
-        .blog { background-position: 18px 10px }
-        .new { background-position: -82px -80px }
+```bash
+### Visual : Normal, Lines and Block
+    <C-v>jje c
+    li.one   a{ background-image: url('/new/sprite.png'); }
+    li.two   a{ background-image: url('/new/sprite.png'); }
+    .blog { background-position: 18px 10px }
+    .new { background-position: -82px -80px }
 
-    ### Command mode
-        htop
-        ls -la /usr/local
-        tail -f /var/log/jenkins/jenkins.log|ccze
-        $CATALINA_HOME/bin/startup.sh
-        $CATALINA_HOME/bin/shutdown.sh
+### Command mode
+    htop
+    ls -la /usr/local
+    tail -f /var/log/jenkins/jenkins.log|ccze
+    $CATALINA_HOME/bin/startup.sh
+    $CATALINA_HOME/bin/shutdown.sh
 
-    ### Replace
-    //f+  s +  <esc>  ;.
-    var foo = "method("+argument1+","+argument2+")";
+### Replace
+//f+  s +  <esc>  ;.
+var foo = "method("+argument1+","+argument2+")";
 
-        yt, jA  <C-r>0
-        Practical Vim, by Drew Neil
-        Read Drew Neil
+    yt, jA  <C-r>0
+    Practical Vim, by Drew Neil
+    Read Drew Neil
+```
 
 ### Search
   Forward / Backward
     *          #  Word under cursor
-    /          ?
-    n          N  Next result
+    ​    /          ?
+    ​    n          N  Next result
 
 
 ### Completion
