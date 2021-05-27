@@ -1,6 +1,4 @@
-
- `2021.03.15`
- `2021.03.15`
+ https://www.sublimetext.com/docs/git_integration.html`
 
 - Some basics (essential) commands
 - Color Schemes ------------------------ F7, F8
