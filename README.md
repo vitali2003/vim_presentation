@@ -1,6 +1,6 @@
  https://www.sublimetext.com/docs/git_integration.html`
 
-- Some basics (essential) cmmands
+- Some basics  commands
 - Color Schemes ------------------------ F7, F8
 - Split/Resize screens
 - Split/Resize screens
