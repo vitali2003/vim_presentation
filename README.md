@@ -1,6 +1,6 @@
  https://www.sublimetext.com/docs/git_integration.html`
 
-- Some basics (essential) commands
+- Some basics (essential) cmmands
 - Color Schemes ------------------------ F7, F8
 - Split/Resize screens
 - Split/Resize screens
@@ -30,6 +30,7 @@
 Howdoi ------------------------------- C+h
 
 
+### Let Vim become helper in your daily routine
 ### Let Vim become helper in your daily routine
 
         k
