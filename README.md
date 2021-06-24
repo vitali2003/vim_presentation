@@ -31,7 +31,6 @@ Howdoi ------------------------------- C+h
 
 
 ### Let Vim become helper in your daily routine
-### Let Vim become helper in your daily routine
 
         k
         ^
