@@ -1,4 +1,7 @@
- https://www.sublimetext.com/docs/git_integration.html`
+ https://www.sublimetext.com/docs/git_integration.html
+
+2.07.21, 19:52
+Feature-3 branch has been created
 
 - Some basics  commands
 - Color Schemes ------------------------ F7, F8
